@@ -3,3 +3,5 @@
 require_relative 'config/environment'
 
 run Rails.application
+
+# run Proc.new { |env| ['200', {'Content-Type' => 'text/html'}, ['get Egon knowledge of the universe\'d']] }
